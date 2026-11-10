@@ -17,6 +17,12 @@ I work across **applied machine learning, generative AI, backend engineering, an
 
 I am especially interested in production-oriented AI systems, Persian-language NLP, retrieval-based applications, and reliable model-serving infrastructure.
 
+## Collaboration
+
+I am open to **AI/ML engineering roles**, **scoped client projects** in AI and Python backend development, and **white-label or subcontracting partnerships** with agencies and product teams. For any engagement, I prefer clear requirements, realistic scope, written milestones, and transparent delivery expectations.
+
+For professional enquiries, contact me through [LinkedIn](https://www.linkedin.com/in/arshia-taher-5b85b33b2/).
+
 ## Engineering focus
 
 | Area | Focus |
