@@ -70,6 +70,13 @@ The projects below are published in the [engineering projects repository](https:
 
 More implementations and their current verification status are documented in the [project repository](https://github.com/arshiataheri851-ops/arshiataheri851-ops).
 
+## Additional implementations
+
+- [Event Stream Processing Platform](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/event-stream-processing-platform) — idempotent event ingestion, SQLite-backed dead-letter handling, deterministic window aggregation, and replay.
+- [LLM Gateway Control Plane](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/llm-gateway-control-plane) — provider abstraction, policy-based routing, preflight spend limits, bounded retries, and an explicitly labelled local mock mode.
+- [ML Model Serving Platform](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/ml-model-serving-platform) — reproducible Iris model training, versioned artifacts, and validated FastAPI inference.
+- [Grounded Document Retrieval API](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/grounded-document-retrieval) — TF-IDF retrieval with source metadata; retrieval-only, without claiming LLM-generated answers.
+
 ## How I approach engineering
 
 - **Evidence over claims:** document measurable results and evaluation methodology.
