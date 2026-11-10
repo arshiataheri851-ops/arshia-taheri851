@@ -1,3 +1,5 @@
+[![Portfolio checks](https://github.com/arshiataheri851-ops/arshia-taheri851/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/arshiataheri851-ops/arshia-taheri851/actions/workflows/portfolio-checks.yml)
+
 ![Arshia Taheri — AI Engineering Portfolio](assets/profile-banner.svg)
 
 <h1 align="center">Arshia Taheri</h1>
