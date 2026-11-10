@@ -1,80 +1,82 @@
-![Arshia Taheri — AI / ML Engineering](assets/profile-banner.svg)
+![Arshia Taheri — AI Engineering Portfolio](assets/profile-banner.svg)
 
-# Arshia Taheri
-
-### AI / ML Engineer · LLM Applications · Backend & Data Systems
-
-I build practical software systems at the intersection of **artificial intelligence, backend engineering, and data infrastructure** — with an emphasis on turning models and ideas into maintainable services.
-
-My engineering interests span the full path from data and model workflows to APIs, deployment, monitoring, and continuous improvement.
-
----
-
-## What I work on
-
-| Focus | Engineering areas |
-|---|---|
-| **Applied AI & Machine Learning** | Model development, evaluation, NLP, deep learning, predictive systems |
-| **LLM Applications** | Retrieval-Augmented Generation (RAG), AI agents, embeddings, model integration |
-| **Backend Engineering** | Python services, REST APIs, FastAPI, Django, service design |
-| **Data Systems** | SQL, PostgreSQL, ETL workflows, data processing and integration |
-| **ML Platform & Delivery** | Model serving, Docker, Kubernetes, experiment tracking, monitoring |
-
-## Technology stack
-
-**Languages & data**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-**AI & machine learning**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**Backend, databases & infrastructure**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-
-## Selected engineering interests
-
-### Real-Time Market Intelligence & Risk Systems
-Exploring systems that process market data such as OHLCV and order-book feeds, derive analytical signals, and surface risk alerts through reliable services.
-
-### Persian NLP & Speech Technology
-Working with language-focused problems including text classification, sentiment analysis, and speech-recognition evaluation for Persian-language use cases.
-
-### Production-Oriented ML Systems
-Designing the engineering path around data preparation, model evaluation, API-based inference, deployment, observability, and maintainable delivery workflows.
-
-### Retrieval & AI Agent Applications
-Building knowledge-grounded LLM workflows, retrieval pipelines, tool integrations, and evaluation approaches for useful AI applications.
-
-> This section describes my engineering focus. Individual repositories will document implementation details, datasets, evaluation results, and project status.
-
-## Engineering principles
-
-- **Build for real use:** prioritize clear requirements and measurable behavior.
-- **Make systems understandable:** document architecture, interfaces, and trade-offs.
-- **Treat evaluation as essential:** validate models and services instead of relying on demos alone.
-- **Design for operation:** consider testing, observability, security, and maintainability from the start.
-
-## Connect
-
-- **GitHub:** [@arshiataheri851-ops](https://github.com/arshiataheri851-ops)
-- **LinkedIn:** [Arshia Taheri](https://www.linkedin.com/in/arshia-taheri-5b85b33b2/)
-
----
+<h1 align="center">Arshia Taheri</h1>
+<h3 align="center">AI / ML Engineering · LLM Applications · Backend Systems</h3>
 
 <p align="center">
-  <sub>AI engineering · Machine learning systems · Backend development</sub>
+  <a href="https://github.com/arshiataheri851-ops">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/arshia-taheri-5b85b33b2/">LinkedIn</a>
 </p>
+
+---
+
+## Profile
+
+I work across **applied machine learning, generative AI, backend engineering, and data systems**. My focus is on building useful, maintainable software around models: from data preparation and evaluation to API integration, deployment, and monitoring.
+
+I am especially interested in production-oriented AI systems, Persian-language NLP, retrieval-based applications, and reliable model-serving infrastructure.
+
+## Engineering focus
+
+| Area | Focus |
+|---|---|
+| **Applied ML** | Predictive modeling, classification, model evaluation, feature engineering |
+| **Generative AI** | LLM applications, RAG pipelines, embeddings, agent workflows |
+| **NLP & Speech** | Text classification, sentiment analysis, Persian-language use cases, ASR evaluation |
+| **Backend** | Python services, REST APIs, FastAPI, Django, integrations |
+| **Data engineering** | SQL, PostgreSQL, ETL workflows, data processing |
+| **MLOps & delivery** | Model serving, Docker, Kubernetes, experiment tracking, monitoring |
+
+## Technology
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+  <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+</p>
+<p>
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img alt="Apache Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+</p>
+
+## Project directions
+
+The following are the engineering themes I use to guide portfolio work. Each implementation will be linked here once its code, setup instructions, and evaluation notes are published.
+
+### 1. Real-time market intelligence & risk analytics
+Data ingestion for market and order-book feeds, feature generation, analytical signals, and risk notifications.
+
+### 2. Persian NLP & speech technology
+Text classification, sentiment analysis, and speech-recognition evaluation for Persian-language data.
+
+### 3. Production-ready model serving
+A tested inference API with input validation, model versioning, Docker-based deployment, logging, and monitoring.
+
+### 4. Retrieval-augmented AI applications
+Document ingestion, chunking, embeddings, retrieval evaluation, grounded generation, and source-aware answers.
+
+## How I approach engineering
+
+- **Evidence over claims:** document measurable results and evaluation methodology.
+- **Reliable delivery:** use clear interfaces, tests, version control, and reproducible setup steps.
+- **Operational thinking:** consider latency, observability, security, and maintainability.
+- **Clear communication:** document assumptions, decisions, limitations, and handover details.
+
+## Contact
+
+- GitHub: [@arshiataheri851-ops](https://github.com/arshiataheri851-ops)
+- LinkedIn: [Arshia Taheri](https://www.linkedin.com/in/arshia-taheri-5b85b33b2/)
+
+---
+
+<p align="center"><sub>Building practical AI systems with strong software engineering foundations.</sub></p>
