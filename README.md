@@ -1,3 +1,5 @@
+![Arshia Taheri — AI / ML Engineering](assets/profile-banner.svg)
+
 # Arshia Taheri
 
 ### AI / ML Engineer · LLM Applications · Backend & Data Systems
