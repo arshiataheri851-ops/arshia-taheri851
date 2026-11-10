@@ -4,7 +4,8 @@
 <h3 align="center">AI / ML Engineering · LLM Applications · Backend Systems</h3>
 
 <p align="center">
-  <a href="https://github.com/arshiataheri851-ops">GitHub</a> ·
+  <a href="https://github.com/arshiataheri851-ops">GitHub profile</a> ·
+  <a href="https://github.com/arshiataheri851-ops/arshiataheri851-ops">Project implementations</a> ·
   <a href="https://www.linkedin.com/in/arshia-taheri-5b85b33b2/">LinkedIn</a>
 </p>
 
