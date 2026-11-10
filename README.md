@@ -53,6 +53,9 @@ I am especially interested in production-oriented AI systems, Persian-language N
 
 The following are the engineering themes I use to guide portfolio work. Each implementation will be linked here once its code, setup instructions, and evaluation notes are published.
 
+- [Portfolio project roadmap](docs/PROJECT_ROADMAP.md)
+- [Reusable project showcase template](docs/PROJECT_SHOWCASE_TEMPLATE.md)
+
 ### 1. Real-time market intelligence & risk analytics
 Data ingestion for market and order-book feeds, feature generation, analytical signals, and risk notifications.
 
