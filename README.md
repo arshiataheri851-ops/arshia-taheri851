@@ -50,24 +50,17 @@ I am especially interested in production-oriented AI systems, Persian-language N
   <img alt="Apache Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 </p>
 
-## Project directions
+## Selected project implementations
 
-The following are the engineering themes I use to guide portfolio work. Each implementation will be linked here once its code, setup instructions, and evaluation notes are published.
+The projects below are published in the [engineering projects repository](https://github.com/arshiataheri851-ops/arshiataheri851-ops). Each project README describes its current scope, setup, tests, and known limitations.
 
-- [Portfolio project roadmap](docs/PROJECT_ROADMAP.md)
-- [Reusable project showcase template](docs/PROJECT_SHOWCASE_TEMPLATE.md)
+1. [Persian Sentiment API](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/persian-sentiment-api) — FastAPI inference service for Persian sentiment classification using a pinned pretrained model.
+2. [Production RAG Service](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/production-rag-service) — citation-first document retrieval with BM25, SQLite, and retrieval evaluation; answer extraction is not presented as LLM generation.
+3. [Agent Workflow Orchestrator](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/agent-workflow-orchestrator) — approval-aware workflow state machine with task scheduling and an audit trail.
+4. [Webhook Reliability Platform](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/webhook-reliability-platform) — idempotent event routing, HMAC signatures, bounded retries, and dead-letter handling.
+5. [ML Feature Store](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/ml-feature-store) — schema-validated, versioned feature storage with batch lookup and freshness metadata.
 
-### 1. Real-time market intelligence & risk analytics
-Data ingestion for market and order-book feeds, feature generation, analytical signals, and risk notifications.
-
-### 2. Persian NLP & speech technology
-Text classification, sentiment analysis, and speech-recognition evaluation for Persian-language data.
-
-### 3. Production-ready model serving
-A tested inference API with input validation, model versioning, Docker-based deployment, logging, and monitoring.
-
-### 4. Retrieval-augmented AI applications
-Document ingestion, chunking, embeddings, retrieval evaluation, grounded generation, and source-aware answers.
+More implementations and their current verification status are documented in the [project repository](https://github.com/arshiataheri851-ops/arshiataheri851-ops).
 
 ## How I approach engineering
 
