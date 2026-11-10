@@ -1,0 +1,82 @@
+name: Portfolio checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: portfolio-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate portfolio links and assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate local README links and assets
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import unquote, urlsplit
+          import re
+          import sys
+
+          root = Path.cwd()
+          readme = root / "README.md"
+          text = readme.read_text(encoding="utf-8")
+          targets = set(re.findall(r"!?(?:\[[^\]]*\])\(([^)]+)\)", text))
+
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.targets = set()
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if key in {"href", "src"} and value:
+                          self.targets.add(value)
+
+          parser = Links()
+          parser.feed(text)
+          targets.update(parser.targets)
+
+          errors = []
+          for raw in sorted(targets):
+              value = raw.strip().strip("<>")
+              parsed = urlsplit(value)
+              if parsed.scheme or value.startswith("//") or not parsed.path:
+                  continue
+              path = unquote(parsed.path)
+              candidate = (readme.parent / path).resolve()
+              if not candidate.is_relative_to(root.resolve()):
+                  errors.append(f"Path escapes repository: {raw}")
+              elif not candidate.exists():
+                  errors.append(f"Missing local target: {raw}")
+
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print(f"Validated {len(targets)} README link/image targets.")
+          PY
+
+      - name: Validate profile banner SVG
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          ET.parse("assets/profile-banner.svg")
+          print("Profile banner SVG is valid XML.")
+          PY
