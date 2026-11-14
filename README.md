@@ -77,6 +77,19 @@ More implementations and their current verification status are documented in the
 - [ML Model Serving Platform](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/ml-model-serving-platform) — reproducible Iris model training, versioned artifacts, and validated FastAPI inference.
 - [Grounded Document Retrieval API](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/grounded-document-retrieval) — TF-IDF retrieval with source metadata; retrieval-only, without claiming LLM-generated answers.
 
+## Further project implementations
+
+The following implementations are maintained in the central engineering repository:
+
+- [Agent Workflow Orchestrator](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/agent-workflow-orchestrator) — approval-aware workflow control plane with DAG scheduling, bounded retries, SQLite persistence and audit events.
+- [Market Intelligence & Risk Analytics](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/market-intelligence-risk-engine) — educational OHLCV processing and risk-monitoring pipeline using sample data.
+- [Workflow Orchestration Engine](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/workflow-orchestration-engine) — dependency-aware DAG runner with cycle detection, retries and execution outcomes.
+- [Intelligent Recommendation Platform](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/intelligent-recommendation-platform) — transparent FastAPI recommendation baseline with interaction history and cold-start fallback.
+- [STRIDE Sportswear & Equipment Store](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/stride-store) — responsive sports retail storefront demo with search, filters, wishlist and demo checkout.
+- [RoutePilot Fleet & Delivery Operations MVP](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/routepilot) — FastAPI + SQLite fleet and delivery workflow MVP with simulated vehicle positions.
+- [SignalDesk Service Operations MVP](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/signaldesk) — FastAPI + SQLite ticket management MVP with assignment, status tracking and audit history.
+- [ERYNDEX Bilingual Company Website](https://github.com/arshiataheri851-ops/arshiataheri851-ops/tree/main/projects/eryndex-company-website) — responsive English/Persian company website with service pages and project case studies.
+
 ## How I approach engineering
 
 - **Evidence over claims:** document measurable results and evaluation methodology.
